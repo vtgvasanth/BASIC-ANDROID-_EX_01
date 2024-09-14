@@ -1,11 +1,11 @@
-BASIC-ANDROID-_EX_01_Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
-AIM:
+## BASIC-ANDROID-_EX_01_Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
+## AIM:
 To create Hello world Activity using all lifecycles methods to display messages using android studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Android Studio(Min. required Artic Fox)
 
-ALGORITHM:
+## ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -20,9 +20,10 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM
-DEVELOPED BY : Surendhar.K
-REGISTER NO: 212222040166
+## PROGRAM
+DEVELOPED BY : vasanth.p
+REGISTER NO: 212222040175
+```
 MainActivity.java:
 package com.example.andriodlifecycle;
 
@@ -87,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+```
+```
 Activity_Main.XML:
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -107,16 +110,27 @@ Activity_Main.XML:
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-OUTPUT:
+```
+## OUTPUT:
 OnCreate Executed:
+![image](https://github.com/user-attachments/assets/b10c0f71-8e54-424f-89bb-8fbca51fbd3b)
+
 
 OnPause Executed:
+![image](https://github.com/user-attachments/assets/cc46024b-7091-416f-9da1-80d09021d083)
+
 
 OnResume Executed:
+![image](https://github.com/user-attachments/assets/7a0f8c17-f8b8-481e-8fd6-5c1339ac8a05)
+
 
 OnRestart Executed:
+![image](https://github.com/user-attachments/assets/3d309679-ed78-469b-898b-e10c263419ae)
+
 
 OnStart Executed:
+![image](https://github.com/user-attachments/assets/068c81a2-fa9e-4696-9c2c-0daa53896856)
+
 
 RESULT:
 Thus a program to implement the various life cycles of an activity is written and successfully executed using Android Studio.
